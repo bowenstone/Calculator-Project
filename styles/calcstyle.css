@@ -1,0 +1,35 @@
+*   {
+    box-sizing: border-box;
+}
+a {
+    font-size: 24px;
+}
+ul  {
+    list-style: none;
+    /* background-color: gray; */
+    /* display: flex; */
+}
+button {
+    background-color: lavender;
+    margin: 3px 1px;
+    /* display: flex; */
+    /* padding: 5px 30px; */
+    padding: 0.5rem 1rem;    
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 240px;
+    min-width: 80px;
+}
+.outcome {
+    margin: 5% 5%;
+    font-weight: normal; 
+    border-style: groove; 
+    min-width: 50%;
+    max-width: 50%;
+    font-size: 32px;
+    text-align: right;
+
+
+    /* height: 400%;
+    max-width: 200%; */
+}
