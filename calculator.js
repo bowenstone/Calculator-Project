@@ -8,6 +8,7 @@
  * determine the algorithm for Exponent.
  * 
  ************/
+"use strict";
 
 const one = document.querySelector('.one');
 const two = document.querySelector('.two');
@@ -44,7 +45,7 @@ const inverse = document.querySelector('.inverse');
 const pi = document.querySelector('.pi');
 const euler = document.querySelector('.euler');
 const lastanswer = document.querySelector('.lastanswer');
-const outcome = document.querySelector('p.outcome');
+const outcome = document.querySelector('.outcome');
 
 outcome.value = '0';
 let displayline = '';
@@ -96,12 +97,12 @@ function getNum(key) {
     point.addEventListener('click', () => {
         getNum (".");
     });
-    // openparen.addEventListener('click', () => {
-    //     getNum ("(");
-    // });
-    // closeparen.addEventListener('click', () => {
-    //     getNum (")");
-    // });
+    openparen.addEventListener('click', () => {
+        getNum ("(");
+    });
+    closeparen.addEventListener('click', () => {
+        getNum (")");
+    });
 
     plus.addEventListener('click', () => {
         result = Number(result) + Number(displayline);

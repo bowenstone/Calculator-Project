@@ -12,24 +12,22 @@ ul  {
 button {
     background-color: lavender;
     margin: 3px 1px;
-    /* display: flex; */
-    /* padding: 5px 30px; */
     padding: 0.5rem 1rem;    
     font-size: 20px;
     font-weight: bold;
     max-width: 240px;
     min-width: 80px;
+    /* display: flex; */
+    /* padding: 5px 30px; */
 }
 .outcome {
-    margin: 5% 5%;
+    margin: 20px 40px;
     font-weight: normal; 
     border-style: groove; 
-    min-width: 50%;
-    max-width: 50%;
+    min-width: 100px;
+    max-width: 340px;
     font-size: 32px;
     text-align: right;
-
-
     /* height: 400%;
     max-width: 200%; */
 }
